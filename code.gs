@@ -161,7 +161,7 @@ function normalizeTimeLabel(label) {
 }
 
 function sendToDiscord() {
-  const webhookUrl = "https://discordapp.com/api/webhooks/1393586094284476476/gXZhPXKNYMYKHAsUboLvK5JDG_ytEGBQzYgseZ2F-ROrmQAuUgshR80R2DMY89Uxrkw-";
+  const webhookUrl = "https://discordapp.com/api/webhooks/";
 
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const output = ss.getSheetByName("予測出力");
